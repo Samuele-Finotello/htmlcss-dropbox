@@ -15,10 +15,6 @@ header {
   background-color: white;
 }
 
-main {
-  padding: 150px 0;
-}
-
 header div {
   width: 100%;
 }
@@ -32,7 +28,7 @@ h2 {
 }
 
 section {
-  padding: 100px 0;
+  padding: 150px 0;
 }
 
 img {
@@ -72,6 +68,11 @@ button {
   display: flex;
 }
 
+.description {
+  padding-top: 200px;
+  padding-bottom: 0;
+}
+
 .align-center {
   display: flex;
   align-items: center;
@@ -90,6 +91,11 @@ button {
   height: 25px;
   width: 130px;
   vertical-align: middle;
+}
+
+.jumbo-relative {
+  position: relative;
+  top: 70px;
 }
 
 .text-right {
@@ -162,6 +168,10 @@ button {
 
 .pd {
   padding: 10px 20px;
+}
+
+.bg-lblue {
+  background-color: lightskyblue;
 }
 
 .bg-blue {
