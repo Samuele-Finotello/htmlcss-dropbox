@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 header {
@@ -13,11 +14,29 @@ header {
   background-color: aqua;
 }
 
+main {
+  padding: 150px 0;
+}
+
 header div {
   width: 100%;
 }
 
+h1 {
+  font-size: 5rem;
+}
+
+img {
+  width: 100%;
+}
+
 /* UTILITIES */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+}
+
 .align-center {
   display: flex;
   align-items: center;
@@ -44,9 +63,22 @@ header div {
   width: 30%;
 }
 
+.wd-70 {
+  width: 70%;
+}
+
 .bg-blue {
   background-color: blue;
 }
+
+.bg-green {
+  background-color: green;
+}
+
+.bg-red {
+  background-color: red;
+}
+
 
 .border-b {
   border: 2px solid black;
