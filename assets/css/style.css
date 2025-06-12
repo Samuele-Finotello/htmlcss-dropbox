@@ -81,6 +81,10 @@ img {
   flex-wrap: wrap;
 }
 
+.card {
+  margin-bottom: 50px;
+}
+
 .mg-0-20 {
   margin: 0 20px;
 }
@@ -103,6 +107,14 @@ img {
 
 .wd-70 {
   width: 70%;
+}
+
+.wd-40 {
+  width: 40%;
+}
+
+.wd-60 {
+  width: 60%;
 }
 
 .wd-100 {
