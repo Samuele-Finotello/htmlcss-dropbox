@@ -11,7 +11,8 @@ header {
   z-index: 1;
   width: 100%;
   height: 100px;
-  background-color: aqua;
+  font-size: 20px;
+  background-color: white;
 }
 
 main {
@@ -38,6 +39,12 @@ img {
   width: 100%;
 }
 
+header a {
+  margin: 0 25px;
+  text-decoration: none;
+  color: gray;
+}
+
 footer {
   background-color: black;
   color: white;
@@ -46,6 +53,10 @@ footer {
 footer span {
   padding-top: 50px;
   padding-right: 50px;
+}
+
+button {
+  font-size: 20px;
 }
 
 /* UTILITIES */
@@ -73,6 +84,12 @@ footer span {
 
 .inline {
   display: inline;
+}
+
+.logo {
+  height: 25px;
+  width: 130px;
+  vertical-align: middle;
 }
 
 .text-right {
@@ -143,6 +160,10 @@ footer span {
   height: 500px;
 }
 
+.pd {
+  padding: 10px 20px;
+}
+
 .bg-blue {
   background-color: blue;
 }
@@ -161,6 +182,10 @@ footer span {
 
 .bg-gray {
   background-color: rgb(172, 172, 172);
+}
+
+.white {
+  color: white;
 }
 
 .border-b {
