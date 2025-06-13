@@ -147,6 +147,10 @@ main {
   height: 100px;
 }
 
+.h-250 {
+  height: 250px;
+}
+
 .pd {
   padding: 10px 20px;
 }
