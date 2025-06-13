@@ -29,8 +29,12 @@ button {
   font-size: 20px;
 }
 
-section.description {
+div.description {
   padding-top: 200px;
+}
+
+h1 {
+  font-size: 5rem;
 }
 
 h2 {
@@ -49,6 +53,12 @@ footer div {
 footer div span {
   padding-top: 50px;
   padding-right: 30px;
+}
+
+.jumbo {
+  position: relative;
+  top: 50px;
+  width: 120%;
 }
 
 /* UTILITIES */
@@ -151,8 +161,8 @@ footer div span {
   width: 20%;
 }
 
-.wd-55 {
-  width: 55%;
+.wd-65 {
+  width: 65%;
 }
 
 .h-500 {
