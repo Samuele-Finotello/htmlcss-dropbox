@@ -39,7 +39,16 @@ h2 {
 
 main {
   margin-top: 150px;
-  border: 1px solid rgb(198, 198, 198);
+}
+
+footer div {
+  padding-top: 50px;
+  vertical-align: middle;
+}
+
+footer div span {
+  padding-top: 50px;
+  padding-right: 30px;
 }
 
 /* UTILITIES */
@@ -116,7 +125,10 @@ main {
 
 .wd-30 {
   width: 30%;
-  gap: 30px;
+}
+
+.wd-35 {
+  width: 35%;
 }
 
 .wd-70 {
@@ -139,6 +151,10 @@ main {
   width: 20%;
 }
 
+.wd-55 {
+  width: 55%;
+}
+
 .h-500 {
   height: 500px;
 }
@@ -153,6 +169,10 @@ main {
 
 .pd {
   padding: 10px 20px;
+}
+
+.pd-bottom-200 {
+  padding-bottom: 200px;
 }
 
 .size-20 {
@@ -183,6 +203,10 @@ main {
   background-color: rgb(172, 172, 172);
 }
 
+.bg-black {
+  background-color: black;
+}
+
 .white {
   color: white;
 }
@@ -193,4 +217,8 @@ main {
 
 .border-blue {
   border: 5px solid blue;
+}
+
+.border-top {
+  border-top: 1px solid rgb(198, 198, 198);
 }
