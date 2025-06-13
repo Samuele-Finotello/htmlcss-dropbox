@@ -27,6 +27,9 @@ header a {
 
 button {
   font-size: 20px;
+  background-color: rgb(35, 35, 255);
+  color: white;
+  padding: 15px 20px;
 }
 
 div.description {
@@ -35,6 +38,7 @@ div.description {
 
 h1 {
   font-size: 5rem;
+  font-weight: bold;
 }
 
 h2 {
@@ -57,7 +61,7 @@ footer div span {
 
 .jumbo {
   position: relative;
-  top: 50px;
+  top: 80px;
   width: 120%;
 }
 
@@ -125,8 +129,16 @@ footer div span {
   margin-top: 50px;
 }
 
+.mg-top-80 {
+  margin-top: 80px;
+}
+
 .mg-bottom-50 {
   margin-bottom: 50px;
+}
+
+.mg-bottom-30 {
+  margin-bottom: 30px;
 }
 
 .mg-right-50 {
@@ -177,6 +189,10 @@ footer div span {
   height: 250px;
 }
 
+.line-30 {
+  line-height: 30px;
+}
+
 .pd {
   padding: 10px 20px;
 }
@@ -187,6 +203,10 @@ footer div span {
 
 .size-20 {
   font-size: 20px;
+}
+
+.size-60 {
+  font-size: 60px;
 }
 
 .bg-lblue {
