@@ -174,10 +174,6 @@ ul li {
   margin-top: 120px;
 }
 
-.mg-bottom-200 {
-  margin-bottom: 200px;
-}
-
 .wd-30 {
   width: 30%;
 }
@@ -312,4 +308,16 @@ ul li {
 
 .border-bottom {
   border-bottom: 1px solid black;
+}
+
+.border-gray {
+  border: 1px solid rgb(196, 196, 196);
+}
+
+.border-gray-bottom {
+  border-bottom: 1px solid rgb(196, 196, 196);
+}
+
+.border-bottom-none {
+  border-bottom: none;
 }
