@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
 header {
@@ -250,6 +250,10 @@ ul li {
   padding-bottom: 50px;
 }
 
+.pd-15-90 {
+  padding: 15px 90px;
+}
+
 .size-20 {
   font-size: 20px;
 }
@@ -279,7 +283,7 @@ ul li {
 }
 
 .bg-gray {
-  background-color: rgb(172, 172, 172);
+  background-color: rgb(165, 165, 165);
 }
 
 .bg-black {
@@ -292,6 +296,10 @@ ul li {
 
 .blue {
   color: blue;
+}
+
+.gray {
+  color: rgb(165, 165, 165);
 }
 
 .border-b {
