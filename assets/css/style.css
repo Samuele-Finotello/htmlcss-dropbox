@@ -75,6 +75,10 @@ ul li {
   margin-bottom: 20px;
 }
 
+img {
+  width: 100%;
+}
+
 /* UTILITIES */
 .container {
   max-width: 1300px;
@@ -136,6 +140,11 @@ ul li {
   position: relative;
   top: 80px;
   width: 120%;
+}
+
+.partner {
+  background-color: white;
+  color: black;
 }
 
 .mg-200-0 {
