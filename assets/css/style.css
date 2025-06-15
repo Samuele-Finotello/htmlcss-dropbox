@@ -147,6 +147,30 @@ img {
   color: black;
 }
 
+button.partner:hover {
+  cursor: pointer;
+  background-color: rgb(244, 244, 244);
+  color: rgb(29, 29, 29);
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: rgb(98, 98, 255);
+}
+
+a:hover {
+  color: rgb(135, 0, 135);
+}
+
+header a:hover {
+  cursor: pointer;
+  color: rgb(191, 191, 191);
+}
+
+div.circle.border-b:hover {
+  cursor: pointer;
+}
+
 .mg-200-0 {
   margin: 200px 0;
 }
