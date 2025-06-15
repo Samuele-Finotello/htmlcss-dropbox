@@ -45,6 +45,10 @@ h2 {
   font-size: 3rem;
 }
 
+h3 {
+  font-size: 2rem;
+}
+
 main {
   margin-top: 150px;
 }
@@ -59,10 +63,16 @@ footer div span {
   padding-right: 30px;
 }
 
-.jumbo {
-  position: relative;
-  top: 80px;
-  width: 120%;
+.fa-solid {
+  margin-right: 5px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul li {
+  margin-bottom: 20px;
 }
 
 /* UTILITIES */
@@ -72,7 +82,7 @@ footer div span {
 }
 
 .container-sm {
-  max-width: 1000px;
+  max-width: 1100px;
   margin: 0 auto;
 }
 
@@ -84,6 +94,11 @@ footer div span {
 .justify-between {
   display: flex;
   justify-content: space-between;
+}
+
+.justify-center {
+  display: flex;
+  justify-content: center;
 }
 
 .inline {
@@ -117,6 +132,12 @@ footer div span {
   flex-wrap: wrap;
 }
 
+.jumbo {
+  position: relative;
+  top: 80px;
+  width: 120%;
+}
+
 .mg-200-0 {
   margin: 200px 0;
 }
@@ -143,6 +164,18 @@ footer div span {
 
 .mg-right-50 {
   margin-right: 50px;
+}
+
+.mg-left-30 {
+  margin-left: 30px;
+}
+
+.mg-top-120 {
+  margin-top: 120px;
+}
+
+.mg-bottom-200 {
+  margin-bottom: 200px;
 }
 
 .wd-30 {
@@ -177,6 +210,10 @@ footer div span {
   width: 65%;
 }
 
+.wd-80 {
+  width: 80%;
+}
+
 .h-500 {
   height: 500px;
 }
@@ -189,6 +226,10 @@ footer div span {
   height: 250px;
 }
 
+.h-50 {
+  height: 50px;
+}
+
 .line-30 {
   line-height: 30px;
 }
@@ -199,6 +240,18 @@ footer div span {
 
 .pd-bottom-200 {
   padding-bottom: 200px;
+}
+
+.pd-15-0 {
+  padding: 15px 0;
+}
+
+.pd-left-30 {
+  padding-left: 30px;
+}
+
+.pd-bottom-50 {
+  padding-bottom: 50px;
 }
 
 .size-20 {
@@ -241,8 +294,12 @@ footer div span {
   color: white;
 }
 
+.blue {
+  color: blue;
+}
+
 .border-b {
-  border: 2px solid black;
+  border: 1px solid black;
 }
 
 .border-blue {
@@ -251,4 +308,8 @@ footer div span {
 
 .border-top {
   border-top: 1px solid rgb(198, 198, 198);
+}
+
+.border-bottom {
+  border-bottom: 1px solid black;
 }
